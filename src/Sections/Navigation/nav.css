@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@600;700&family=Roboto:wght@700&display=swap');
+
+.navbar {
+    /* padding: 0 20px!important; */
+    background-color: #ffffff;
+    margin: 0 -50px;
+}
+
+.ml-auto {
+    margin-left: 515px!important;
+}
+.nav-item {
+    margin-right: 60px;
+}
+
+.nav-link {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #FA4A0C;
+}

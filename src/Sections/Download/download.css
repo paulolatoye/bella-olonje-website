@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@600;700&family=Roboto:wght@700&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.row{
+    margin: 0;
+}
+
+
+.second-header {
+    position: relative;
+    top: 160px;
+    width: 1330px;
+    height: 510px;
+    margin: 10px;
+    background: linear-gradient(0deg, rgba(23, 16, 16, 0.6), rgba(23, 16, 16, 0.6)), url("../../assets/background2.png") no-repeat;
+}
+
+.downl-elements{
+    text-align: center;
+    position: relative;
+    top: 190px;
+}
+
+
+.downl-desc{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.downl-inst{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+
+.downl-btns{
+    position: relative;
+    top: 220px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.play-Store{
+    padding: 18px 31px;
+    gap: 10px;
+    width: 142px;
+    height: 64px;
+    background: #FA4A0C;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.app-Store{
+    padding: 16px 45px;
+    gap: 10px;
+    width: 173px;
+    height: 60px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+}
+

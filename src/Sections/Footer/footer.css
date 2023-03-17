@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@600;700&family=Roboto:wght@700&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer{
+    position: relative;
+    margin: 0;
+    top: 200px;
+}
+
+.app-logo{
+    background: url("../../assets/logo.png") no-repeat;
+    width: 150px;
+    height: 100px;
+    top: -35px;
+}
+
+.brand-logos{
+    display: flex;
+    justify-content: center;
+}
+
+.fa-brands {
+    font-weight: 400;
+    font-size: 35px;
+    width: 40.99px;
+    height: 40.99px;
+    color: #FA4A0C;
+    margin-right: 10px;
+}
+
+.copy-wright h5{
+    position: relative;
+    top: 15px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: 0.1px;
+    color: #5C5C5C;
+}
