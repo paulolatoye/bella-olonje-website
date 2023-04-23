@@ -1,49 +1,146 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@600;700&family=Roboto:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@600;700&family=Roboto:wght@700&display=swap");
 
-*{
-    font-family: 'Montserrat', sans-serif;
+* {
+  font-family: "Montserrat", sans-serif;
 }
 
-
-.user-section{
-    position: relative;
-    top: 630px;
+.user-section {
+  position: relative;
+  top: 630px;
 }
 
-
-.user-page-img img{
-    width: 100%;
-    position: relative;
-    left: 10px;
-    filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15));
+.user-page-img img {
+  width: 100%;
+  position: relative;
+  left: 10px;
+  filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15));
 }
 
 .user-page-info {
+  position: relative;
+  top: 270px;
+  left: 0;
+}
+
+.user-page-info h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  color: #fa4a0c;
+}
+
+.user-page-info h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: 0.2px;
+}
+
+.user-page-info h4 {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  br {
+    display: none;
+  }
+
+  .user-page-info {
     position: relative;
-    top: 270px;
+    top: 200px;
     left: 0;
+  }
+
+  .user-page-info h3 {
+    font-size: 25px;
+  }
 }
 
-.user-page-info h3{
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0.1px;
-    color: #FA4A0C;
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  .user-section {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    top: 1000px;
+  }
+
+  .user-page-info {
+    text-align: center;
+    top: 30px;
+  }
+
+  .user-page-info h3 {
+    font-size: 40px;
+  }
+
+  .user-page-info h2 {
+    margin-top: 25px;
+    font-size: 66px;
+    line-height: 80px;
+  }
+
+  .user-page-info h4 {
+    margin-top: 25px;
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .user-page-img {
+    position: relative;
+    top: -50px;
+  }
+
+  .user-page-img img {
+    position: absolute;
+    width: 100%;
+    left: 70px;
+  }
 }
 
-.user-page-info h2{
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 37px;
+@media screen and (max-width: 600px) {
+  .user-section {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    top: 370px;
+  }
+
+  .user-page-info {
+    text-align: center;
+    top: 30px;
+  }
+
+  .user-page-info h2 {
+    margin-top: 25px;
+    font-size: 40px;
+    line-height: 57px;
     letter-spacing: 0.2px;
-}
+    color: #252b42;
+  }
 
-.user-page-info h4{
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 25px;
+  .user-page-info h4 {
+    margin-top: 25px;
+    font-size: 24px;
+    line-height: 38px;
     letter-spacing: 0.2px;
     color: #737373;
-    margin-top: 10px;
+  }
+
+  .user-page-img {
+    position: relative;
+    width: 100%;
+    top: 0;
+  }
+
+  .user-page-img img {
+    position: absolute;
+    width: 100%;
+    left: 30px;
+  }
 }

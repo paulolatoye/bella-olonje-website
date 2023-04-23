@@ -1,23 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@600;700&family=Roboto:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@600;700&family=Roboto:wght@700&display=swap");
 
 .navbar {
-    /* padding: 0 20px!important; */
-    background-color: #ffffff;
-    margin: 0 -50px;
+  background-color: #ffffff;
+  margin: 0 -50px;
 }
 
 .ml-auto {
-    margin-left: 515px!important;
+  margin-left: 515px !important;
 }
 .nav-item {
-    margin-right: 60px;
+  margin-right: 60px;
 }
 
 .nav-link {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
 }
 
-.navbar-light .navbar-nav .active>.nav-link {
-    color: #FA4A0C;
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #fa4a0c;
+}
+
+/* Large Screens */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .ml-auto {
+    margin-left: 320px !important;
+    margin-top: 10px;
+  }
+}
+
+/* Medium Screens - mostly Tablets */
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  .navbar-light .navbar-toggler {
+    display: none;
+  }
+
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+  }
+
+  .ml-auto {
+    margin-left: 110px !important;
+    flex-direction: row;
+    margin-top: 25px;
+  }
+}
+
+/* Small screens - mostly Smartphones */
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+
+  .navbar {
+    margin: 15px;
+  }
+
+  .navbar-light .navbar-brand {
+    margin-left: -38px;
+  }
+
+  .navbar-brand img {
+    width: 50%;
+  }
+
+  .navbar-light .navbar-toggler {
+    position: relative;
+    left: 30px;
+  }
+
+  .ml-auto {
+    margin-left: -30px !important;
+  }
 }
